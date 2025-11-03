@@ -254,6 +254,29 @@ body {
   box-shadow: 0 8px 15px rgba(0, 0, 0, 0.15);
 }
 
+.contact {
+  text-align: center;
+}
+
+.contact-links {
+  margin-top: 20px;
+}
+
+.contact-links p {
+  margin: 10px 0;
+  font-size: 1.1rem;
+}
+
+.contact-links a {
+  color: #3498db;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.contact-links a:hover {
+  text-decoration: underline;
+}
+
 /* Catatan:
      - Style untuk header, about, skills, pendidikan, kontak, dan footer 
        akan ditambahkan bertahap pada commit selanjutnya.
