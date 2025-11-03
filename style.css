@@ -277,6 +277,14 @@ body {
   text-decoration: underline;
 }
 
+.footer {
+  background: #2c3e50;
+  color: white;
+  text-align: center;
+  padding: 1.5rem 0;
+  margin-top: 2rem;
+}
+
 /* Catatan:
      - Style untuk header, about, skills, pendidikan, kontak, dan footer 
        akan ditambahkan bertahap pada commit selanjutnya.
