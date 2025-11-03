@@ -60,6 +60,98 @@ body {
   border-bottom: 2px solid #3498db;
 }
 
+.about-section {
+  background-color: #0d1117;
+  color: #e5e7eb;
+  padding: 5rem 0;
+}
+
+.about-container {
+  display: grid;
+  grid-template-columns: 340px 1fr;
+  align-items: center;
+  gap: 3rem;
+}
+
+.about-image {
+  display: flex;
+  justify-content: center;
+}
+
+.about-image img {
+  width: 280px;
+  height: 280px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 4px solid #00e0b8;
+  box-shadow: 0 0 0 8px rgba(0, 224, 184, 0.12), 0 12px 30px rgba(0, 0, 0, 0.45);
+}
+
+.about-content .section-title {
+  font-size: 2.25rem;
+  color: #00e0b8;
+  margin-bottom: 1rem;
+}
+
+.about-content h3 {
+  color: #ffffff;
+  font-size: 1.75rem;
+  margin-bottom: 1rem;
+}
+
+.about-content p {
+  color: #cbd5e1;
+  margin-bottom: 0.9rem;
+}
+
+.highlight {
+  color: #00e0b8;
+}
+
+.info-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.9rem 1.2rem;
+  margin: 1.2rem 0 1.8rem;
+}
+
+.info-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background: #111827;
+  border: 1px solid rgba(0, 224, 184, 0.22);
+  padding: 12px 14px;
+  border-radius: 12px;
+}
+
+.info-item i {
+  width: 22px;
+  text-align: center;
+  font-size: 1rem;
+  color: #00e0b8;
+}
+
+.button-group {
+  margin-top: 10px;
+}
+
+.button-group .button.secondary {
+  border: 2px solid #00e0b8;
+  color: #00e0b8;
+  background: transparent;
+  padding: 10px 20px;
+  border-radius: 10px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+
+.button-group .button.secondary:hover {
+  background: #00e0b8;
+  color: #0d1117;
+}
+
 /* Catatan:
      - Style untuk header, about, skills, pendidikan, kontak, dan footer 
        akan ditambahkan bertahap pada commit selanjutnya.
