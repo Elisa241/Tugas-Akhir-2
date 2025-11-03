@@ -152,6 +152,57 @@ body {
   color: #0d1117;
 }
 
+.skills-section {
+  text-align: center;
+  background-color: #0d1117;
+  color: #fff;
+  padding: 4rem 0;
+}
+
+.skills-section .section-title {
+  font-size: 2.2rem;
+  color: #00e0b8;
+  margin-bottom: 1rem;
+}
+
+.skills-section .subtitle {
+  font-size: 1.2rem;
+  color: #00e0b8;
+  margin-bottom: 2rem;
+}
+
+.skills-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+.skill-card {
+  background: #111827;
+  padding: 1.5rem;
+  border-radius: 15px;
+  width: 130px;
+  text-align: center;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.skill-card img {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 0.5rem;
+}
+
+.skill-card p {
+  font-weight: bold;
+  color: #fff;
+}
+
+.skill-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 0 15px rgba(0, 224, 184, 0.6);
+}
+
 /* Catatan:
      - Style untuk header, about, skills, pendidikan, kontak, dan footer 
        akan ditambahkan bertahap pada commit selanjutnya.
