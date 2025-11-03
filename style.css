@@ -203,6 +203,57 @@ body {
   box-shadow: 0 0 15px rgba(0, 224, 184, 0.6);
 }
 
+.education-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-top: 2rem;
+  position: relative;
+  padding-left: 30px;
+}
+
+.education-list::before {
+  content: "";
+  position: absolute;
+  left: 15px;
+  top: 0;
+  bottom: 0;
+  width: 3px;
+  background-color: #3498db;
+  border-radius: 2px;
+}
+
+.education-item {
+  background: #ecf0f1;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  position: relative;
+  transition: transform 0.3s ease-in-out;
+}
+
+.education-item::before {
+  content: "🎓";
+  position: absolute;
+  left: -28px;
+  top: 20px;
+  background-color: white;
+  border: 2px solid #3498db;
+  border-radius: 50%;
+  width: 28px;
+  height: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.9rem;
+  color: #3498db;
+}
+
+.education-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.15);
+}
+
 /* Catatan:
      - Style untuk header, about, skills, pendidikan, kontak, dan footer 
        akan ditambahkan bertahap pada commit selanjutnya.
