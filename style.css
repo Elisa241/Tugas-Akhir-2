@@ -20,6 +20,46 @@ body {
   overflow: hidden;
 }
 
+.navbar {
+  background: #2c3e50;
+  color: white;
+  padding: 1rem 0;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.navbar h1 {
+  float: left;
+  font-size: 1.5rem;
+}
+
+.navbar nav {
+  float: right;
+}
+
+.navbar ul {
+  list-style: none;
+}
+
+.navbar ul li {
+  display: inline;
+  margin-left: 20px;
+}
+
+.navbar ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  padding-bottom: 5px;
+  transition: border-bottom 0.3s;
+}
+
+.navbar ul li a:hover {
+  border-bottom: 2px solid #3498db;
+}
+
 /* Catatan:
      - Style untuk header, about, skills, pendidikan, kontak, dan footer 
        akan ditambahkan bertahap pada commit selanjutnya.
