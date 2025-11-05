@@ -1,4 +1,3 @@
-/* ===== Base Styles ===== */
 * {
   margin: 0;
   padding: 0;
@@ -12,7 +11,6 @@ body {
   color: #333;
 }
 
-/* Container umum */
 .container {
   width: 80%;
   max-width: 1200px;
@@ -284,8 +282,3 @@ body {
   padding: 1.5rem 0;
   margin-top: 2rem;
 }
-
-/* Catatan:
-     - Style untuk header, about, skills, pendidikan, kontak, dan footer 
-       akan ditambahkan bertahap pada commit selanjutnya.
-  */
