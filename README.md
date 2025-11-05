@@ -6,3 +6,9 @@ Di dalam website ini terdapat informasi mengenai latar belakang pribadi, riwayat
 Proyek ini dibuat sebagai Tugas Akhir raktikum Pemrograman Web (Modul 2: Git & Version Control) dengan menerapkan konsep repository Git, branch, dan commit bertahap untuk setiap section pada website portofolio.
 
 Proses Commit dan Branching
+![Tampilan About Me](images/TA2.png)
+
+Tampilan Website
+![Tampilan About Me](images/about.png)
+![Tampilan About Me](images/skill.png)
+![Tampilan About Me](images/pendidikan.png)
